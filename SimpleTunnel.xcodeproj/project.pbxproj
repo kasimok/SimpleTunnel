@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4408EBAB1B0C5C1F0011C5F9 /* UDPServerConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4408EBAA1B0C5C1F0011C5F9 /* UDPServerConnection.swift */; };
 		6904B0FB1FFDC8D1000B64F3 /* PacketTunnel.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B07CCB6D1A89414500A4F1E5 /* PacketTunnel.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		695953321FE666B000915DBA /* AppProxyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695953311FE666B000915DBA /* AppProxyViewController.swift */; };
 		69836CE2212400AB00815672 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69836CE1212400AB00815672 /* NetworkExtension.framework */; };
 		69CC27571FFF25F400E70306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC27561FFF25F400E70306 /* AppDelegate.swift */; };
 		69CC27591FFF25F400E70306 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69CC27581FFF25F400E70306 /* ViewController.swift */; };
@@ -62,7 +61,6 @@
 		C4B602041A8E5B3000A3C5D4 /* ServerTunnelConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B602031A8E5B3000A3C5D4 /* ServerTunnelConnection.swift */; };
 		C4B602061A8E61B300A3C5D4 /* ClientTunnelConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B602051A8E61B300A3C5D4 /* ClientTunnelConnection.swift */; };
 		C4BB8C451AD4985800B58141 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BB8C441AD4985800B58141 /* StatusViewController.swift */; };
-		C4C273931AD5C50000214C25 /* ContentFilterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C273921AD5C50000214C25 /* ContentFilterController.swift */; };
 		C4E003AE1B1A9E45001A01C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B07CCB401A8940E600A4F1E5 /* Main.storyboard */; };
 		C4E003AF1B1A9E45001A01C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B07CCB431A8940E600A4F1E5 /* Images.xcassets */; };
 		C4E003B01B1A9E45001A01C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B07CCB451A8940E600A4F1E5 /* LaunchScreen.xib */; };
@@ -193,7 +191,6 @@
 /* Begin PBXFileReference section */
 		4408EBAA1B0C5C1F0011C5F9 /* UDPServerConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UDPServerConnection.swift; sourceTree = "<group>"; };
 		442B69421B06724900382B6D /* AppProxyProvider.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AppProxyProvider.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		695953311FE666B000915DBA /* AppProxyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppProxyViewController.swift; sourceTree = "<group>"; };
 		69836CE1212400AB00815672 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		69CC27541FFF25F400E70306 /* mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69CC27561FFF25F400E70306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -258,7 +255,6 @@
 		C4B602031A8E5B3000A3C5D4 /* ServerTunnelConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerTunnelConnection.swift; sourceTree = "<group>"; };
 		C4B602051A8E61B300A3C5D4 /* ClientTunnelConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientTunnelConnection.swift; sourceTree = "<group>"; };
 		C4BB8C441AD4985800B58141 /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
-		C4C273921AD5C50000214C25 /* ContentFilterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentFilterController.swift; sourceTree = "<group>"; };
 		C4CD4E6C1B050BE000939546 /* SimpleTunnel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SimpleTunnel.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -463,11 +459,9 @@
 				C4751DDF1ACB509A00C116E5 /* ProxyServerAddEditController.swift */,
 				C441D26A1ACB797F00C5084C /* ProxyAutoConfigScriptController.swift */,
 				C4BB8C441AD4985800B58141 /* StatusViewController.swift */,
-				C4C273921AD5C50000214C25 /* ContentFilterController.swift */,
 				C44B374A1B2725C700B3C3E0 /* SwitchCell.swift */,
 				C44B38561B27AD3100B3C3E0 /* TextFieldCell.swift */,
 				C44B385A1B27CFDB00B3C3E0 /* ConfigurationParametersViewController.swift */,
-				695953311FE666B000915DBA /* AppProxyViewController.swift */,
 			);
 			path = SimpleTunnel;
 			sourceTree = "<group>";
@@ -798,7 +792,7 @@
 					};
 					B07CCB361A8940E600A4F1E5 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 745WQDK4L7;
+						DevelopmentTeam = T2DT6C6U3X;
 						LastSwiftMigration = 1020;
 						SystemCapabilities = {
 							com.apple.Keychain = {
@@ -808,9 +802,9 @@
 					};
 					B07CCB6C1A89414500A4F1E5 = {
 						CreatedOnToolsVersion = 7.0;
-						DevelopmentTeam = 745WQDK4L7;
+						DevelopmentTeam = T2DT6C6U3X;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.NetworkExtensions.iOS = {
 								enabled = 1;
@@ -1003,8 +997,6 @@
 				C44B38571B27AD3100B3C3E0 /* TextFieldCell.swift in Sources */,
 				C44B374B1B2725C700B3C3E0 /* SwitchCell.swift in Sources */,
 				C46318B11AC3598600849278 /* OnDemandRuleAddEditController.swift in Sources */,
-				C4C273931AD5C50000214C25 /* ContentFilterController.swift in Sources */,
-				695953321FE666B000915DBA /* AppProxyViewController.swift in Sources */,
 				C418873C1AC60FE8004F638A /* ConnectionRuleListController.swift in Sources */,
 				C418873A1AC60F7E004F638A /* ConnectionRuleAddEditController.swift in Sources */,
 			);
@@ -1450,7 +1442,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "arm64 armv4t armv5 armv6 armv6m armv7 armv7em armv7f armv7m armv7s xscale x86_64";
+				VALID_ARCHS = "arm64 armv4t armv5 armv6 armv6m armv7 armv7em armv7f armv7m armv7s xscale x86_64 arm64e";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1476,7 +1468,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = "arm64 armv4t armv5 armv6 armv6m armv7 armv7em armv7f armv7m armv7s xscale x86_64";
+				VALID_ARCHS = "arm64 armv4t armv5 armv6 armv6m armv7 armv7em armv7f armv7m armv7s xscale x86_64 arm64e";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1603,7 +1595,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SimpleTunnel/SimpleTunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 745WQDK4L7;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1612,7 +1604,7 @@
 				INFOPLIST_FILE = SimpleTunnel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SimpleTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.poc.SimpleTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1629,12 +1621,12 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = SimpleTunnel/SimpleTunnel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 745WQDK4L7;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				GCC_PREPROCESSOR_DEFINITIONS = "VPNTYPE=\\\"$(PLUGIN_BUNDLE_ID)\\\"";
 				INFOPLIST_FILE = SimpleTunnel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SimpleTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.poc.SimpleTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_VERSION = 5.0;
@@ -1646,16 +1638,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 745WQDK4L7;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SimpleTunnel.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.poc.SimpleTunnel.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "7f3c7bb4-0e11-447b-b6e4-e978fb094d97";
-				PROVISIONING_PROFILE_SPECIFIER = "SimpleTunnel_PacketTunnel)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv4t armv5 armv6 armv6m armv7 armv7em armv7f armv7m armv7s xscale x86_64";
@@ -1666,13 +1657,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = PacketTunnel/PacketTunnel.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				INFOPLIST_FILE = PacketTunnel/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yarshure.SimpleTunnel.PacketTunnel;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiang.poc.SimpleTunnel.PacketTunnel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
